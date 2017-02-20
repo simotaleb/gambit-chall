@@ -18,7 +18,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "webpack-dev-server"
+  "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
+  "start": "node ./client/index.js"
   },
   "keywords": [],
   "author": "",
